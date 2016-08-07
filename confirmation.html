@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Confirmation • Doctor in Rio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="http://www.doctorinrio.com/confirmation.html">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<!-- Thank you -->
+
+	<div id="thankyou-wrapper">
+
+		<section id="thankyou" class="container">
+
+			<div>
+				<span id="thankyou-message"></span>
+			</div>
+			<br/><br/>
+			<a href="https://www.doctorinrio.com" id="btn-thankyou-back" class="btn-action" style="display: none">Go back</a>
+
+		</section>
+
+	</div>
+
+	<!-- JS -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+	<script src="js/typed.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			// Thank you message
+			$("#thankyou-message").typed({
+			  strings: ["Thank you for using our services! We will find you a doctor and get back to you as soon as we can. Any question fell free to contact us through our <a href='https://www.facebook.com/doctorinrio'><strong>Facebook Page</strong></a> or our telephone number <strong>+55 16 99638-5487</strong>."],
+			  startDelay: 800,
+			  showCursor: false,
+			  callback: function() {
+			  	$("#btn-thankyou-back").fadeIn();
+			  }
+			});
+
+		});
+	</script>
+
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-82057574-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+</body>
+</html>
