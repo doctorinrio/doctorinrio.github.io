@@ -233,8 +233,16 @@ h1 {
 /* Prizes */
 
 #prizes-wrapper {
-	height: 100px;
 	background-color: rgb(228, 228, 228);
+}
+
+#prizes {
+  padding: 1.5em 0;
+}
+
+.prize {
+  height: 50px;
+  margin-right: 60px;
 }
 
 /* Services (Grid) */
@@ -471,6 +479,20 @@ footer .hippo {
 
   #welcome-section .btn-action {
     margin: 1em 0 1em;
+  }
+
+  #prizes {
+    padding: 1.5em 0 1em;
+  }
+
+  .prize {
+    height: 34px;
+    margin-right: 20px;
+    margin-bottom: 0.5em;
+  }
+
+  .prize:last-child {
+    display: none;
   }
 
   .how-it-works {
