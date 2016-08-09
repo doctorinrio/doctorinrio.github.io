@@ -357,6 +357,10 @@ h1 {
   text-align: center;
 }
 
+#middle .btn-action {
+  margin-top: 30px;
+}
+
 /* Contact */
 
 #contact {
